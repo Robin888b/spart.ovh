@@ -3,38 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raven's portfolio</title>
-    <link rel="stylesheet" href="./src/style/index.css">
-</head>
-<script src="./src/app/language.js"></script>
-<body>
-    <header id="headLinkList">
-        <ul>
-            <li id="liHome">Home</li>
-            <li><a id="liLinks" href="./links.html">Links</a></li>
-            <li><a id="liGal" href="https://t.me/Raven_photos">Gallery</a></li>
-            <li><select name="" id="langSelect">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                <option value="no">Norsk</option>
-            </select></li>
-        </ul>
-    </header>
-    <button id="menuToggle"><img src="./src/img/menuIcon.png" alt=""></button>
-    <section class="content">
-        <img src="./src/img/robin888b-10.JPG" alt="" class="mainmg">
-        <div class="contentText">
-            <h1>Raven Spart</h1>
-            <p>Hello 👋 <br>
-                My name is Raven; I'm a <span id="age">20</span>yo french student in informatic license; <br><br>
-                for me, programing is often like a game, <span class="spoiler" id="sp1">when you don't ask me to use Ocaml or assembly 👀</span> <br><br>
-                I like to do photography on my free-time and sometimes I draw furries things <br><br>
-                i'm also a gay furry who like to play justDance and spend all of his time listening to musics
+    <title>Raven Spart</title>
+    <link rel="stylesheet" href="./src/css/noScript.css">
 
-            </p>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./src/favicon/site.webmanifest">
+</head>
+<script>/*
+    if (navigator.userAgent.toString().toLowerCase().includes("mobile")){
+        window.location.pathname = "/mobile.html"
+    } else {
+        window.location.pathname = "/desktop.html"
+    }*/
+</script>
+<body>
+    <section id="content">
+        <div id="ct1">
+            <img src="./src/img/photoFursuitHeadshot.png" alt="" class="mainmg">
+            <div class="contentText">
+                <h1>Raven Spart</h1>
+                <p>Hello 👋 <br>
+                    My name is Raven; I'm a french student from 2004 studying informatic; <br><br>
+                    for me, programing is often like a game, <span class="spoiler" id="sp1">when you don't ask me to use Ocaml or assembly 👀</span> <br><br>
+                    I like to do photography on my free-time and sometimes I draw furries things <br><br>
+                    i'm also a gay furry who like to play justDance and spend all of his time listening to musics
+                </p>
+            </div>
         </div>
+
+        <div id="ct2">
+            <h2>My  Links :</h2>
+            <ul>
+            <li class="linkli"><a href="https://t.me/Raven_photos">
+                <img src="./src/img/iconTelegram.png" alt="">
+                <div>
+                    <h3>Telegram channels</h3>
+                    <p>Where i post my photos</p>
+                </div>
+            </a></li>
+            <li class="linkli"><a href="https://t.me/Robin888b">
+                <img src="./src/img/iconTelegram.png" alt="">
+                <div>
+                    <h3>Telegram account</h3>
+                    <p>To send me privates messages</p>
+                </div>
+            </a></li>
+            <li class="linkli"><a href="https://www.instagram.com/robin888b">
+                <img src="./src/img/iconInsta.png" alt="">
+                <div>
+                    <h3>Instagram</h3>
+                    <p>Everything and anything, all of the time</p>
+                </div>
+            </a></li>
+            <li class="linkli"><a href="https://bsky.app/profile/robin888b.bsky.social">
+                <img src="./src/img/iconBluesky.png" alt="">
+                <div>
+                    <h3>Bluesky</h3>
+                    <p>like twitter, but doesn't belong to a nazi</p>
+                </div>
+            </a></li>
+            <li class="linkli"><a href="https://github.com/Robin888b">
+                <img src="./src/img/iconGithub.png" alt="">
+                <div>
+                    <h3>Github</h3>
+                    <p>The code of my open-sources projects</p>
+                </div>
+            </a></li>
+            <li class="linkli"><div id="discordl">
+                <img src="./src/img/iconDiscord.png" alt="">
+                <div>
+                    <h3>Discord</h3>
+                    <p>Only for people I know <br><code>@Robin888b</code></p>
+                </div>
+            </div></li>
+            </ul>
+        </div>
+
+        <div id="ct3">
+            <h2>Some pictures I took :</h2>
+            <div>
+                <a href="#" class="imgLi"><img src="./src/img/photoFursuitHeadshot.png" alt="Me in fursuit"></a>
+                <a href="https://www.instagram.com/robin888b/p/C7PBQ9yIxHA8bN0tVSAETgMlYk17LRXzRYvdqQ0/" class="imgLi"><img src="./src/img/photoPigeon.JPG" alt="A pigeon walking in the grass"></a>
+                <a href="https://www.instagram.com/yuki_the_wolf_king/p/DFbTQgVtQWJ/" class="imgLi"><img src="./src/img/photoRaiden.JPG" alt="Raiden/Yuki (a friend) in fursuit"></a>
+                <a href="#" class="imgLi"><img src="./src/img/photoTGS24Botles.JPG" alt="Some stylish bottles"></a>
+                <a href="https://www.instagram.com/robin888b/p/C7PBQ9yIxHA8bN0tVSAETgMlYk17LRXzRYvdqQ0/" class="imgLi"><img src="./src/img/photoBatiment.JPG" alt="a cool building, not from Paris"></a>
+                <a href="https://www.instagram.com/pup_phoenix__/p/DDYAxVoNHZF/" class="imgLi"><img src="./src/img/photoTGS24Pup.JPG" alt="A cute pup"></a>
+                <a href="#" class="imgLi"><img src="./src/img/photoTGS24SkullFursuit.JPG" alt="A fursuiter with skull head"></a>
+                <a href="https://www.instagram.com/eldrinefr/" class="imgLi"><img src="./src/img/photoTGS24Triton.JPG" alt="Triton (a friend) in front of the sun"></a>
+                <a href="https://www.instagram.com/rocket_wlf/p/DD0Ii95sjiv-UCucByYxLu--_7W4pi7MM2LrOk0/" class="imgLi"><img src="./src/img/photoRocket.JPG" alt="Rocket (pup)"></a>
+            </div>
+            <p>For more, check my <a href="https://t.me/Raven_photos">Telegram Chanel (100%sfw)</a></p>
+        </div>
+
+        <div id="ct4">
+            <h2>Some things I've drawed :</h2>
+            <div>
+                <a href="https://www.furaffinity.net/view/53025148/"><img src="./src/img/dessinBadge.png" alt=""></a>
+                <a href="https://www.furaffinity.net/gallery/robin888b/"><img src="./src/img/dessinFemboy.png" alt=""></a>
+                <a href="https://www.furaffinity.net/view/53217903/"><img src="./src/img/dessingGrotte.png" alt=""></a>
+                <a href="https://www.furaffinity.net/view/52948341/"><img src="./src/img/dessinDrawHover.png" alt=""></a>
+                <a href="https://www.furaffinity.net/view/52949104/"><img src="./src/img/stickerGoogleIt.png" alt=""></a>
+                <a href="https://www.furaffinity.net/view/52949216/"><img src="./src/img/stickerPride.png" alt=""></a>
+                <a href="https://www.furaffinity.net/view/52949037/"><img src="./src/img/StickerHornyJail.png" alt=""></a>
+                <a href="https://www.furaffinity.net/view/52948642/"><img src="./src/img/stickerGoForIt.png" alt=""></a>
+                <a href="https://www.furaffinity.net/gallery/robin888b/"><img src="./src/img/dessinFurso.png" alt=""></a>
+            </div>
+            <p>For more, check my <a href="https://www.furaffinity.net/user/robin888b/">FurAffinity</a></p>
+        </div>
+
     </section>
 </body>
-<script src="./src/app/app.js"></script>
-<script src="https://keepandroidopen.org/banner.js?size=mini"></script>
 </html>

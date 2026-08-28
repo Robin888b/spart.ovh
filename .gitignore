@@ -1,2 +1,8 @@
 test
-old/*
+old
+mobile.html
+desktop.html
+src/svg
+src/js
+src/css/desktop.css
+src/css/mobile.css
